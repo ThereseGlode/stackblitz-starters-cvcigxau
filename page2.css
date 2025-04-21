@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2E3A59;
+    padding: 1%;
+    border-radius: 30px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-btn2 {
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: solid ;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2rem; 
+    background-color: black;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .game-card {
+    border: 3px solid #333;
+    border-radius: 16px;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+
+  .cod {
+    border-color: #444;
+    background: #1c1c1c;
+    color: #fff;
+  }
+
+  .fortnite {
+    border-color: #5ac8fa;
+    background: #eefaff;
+  }
+
+  .hogwarts {
+    border-color: #7f5a83;
+    background: #f7f0ff;
+  }
+
+  .zelda {
+    border-color: #4caf50;
+    background: #f0fff4;
+  }
+
+  .mario {
+    border-color: #e63946;
+    background: #fff0f0;
+  }
+
+  .kontaktmeg img {
+    height: 140px;
+  }
+  .kontaktmeg h2 {
+    display: flex;
+    justify-content: center;
+    color: #5ac8fa;    
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: solid ;
+  }
+
+  .sosialmedia {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+  }

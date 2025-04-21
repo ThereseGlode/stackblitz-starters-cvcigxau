@@ -120,3 +120,24 @@ h1 {
 .card-button {
   border: ;
 }
+
+
+.kontaktmeg img {
+  height: 140px;
+}
+.kontaktmeg h2 {
+  display: flex;
+  justify-content: center;
+  color: #5ac8fa;    
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  color: black;
+  background-color: whitesmoke;
+  text-decoration: solid ;
+}
+
+.sosialmedia {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
