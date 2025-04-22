@@ -33,6 +33,8 @@ nav .header {
   font-weight: bold;
   transition: transform 0.2s ease, background-color 0.3s;
   text-decoration: none;
+  transform: translateY(2px);
+  transition: transform 1.2 ease;
 }
 
 .nav-btn:hover {
@@ -98,7 +100,7 @@ h1 {
 }
 
 .console-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(8px);
 }
 
 .console-card h2 {
@@ -118,26 +120,29 @@ h1 {
 }
 
 .card-button {
-  border: ;
+  color: cornflowerblue;
 }
 
 
 .kontaktmeg img {
-  height: 140px;
+  display: flex;
+  height: 100px;
+  transform: translateY(8px) 
 }
 .kontaktmeg h2 {
   display: flex;
-  justify-content: center;
   color: #5ac8fa;    
   padding: 0.6rem 1.2rem;
   border-radius: 5px;
   color: black;
-  background-color: whitesmoke;
+  background-color:#2E3A59;
   text-decoration: solid ;
+  width: 50%;
+  justify-content:flex-start;
 }
 
 .sosialmedia {
+  width: 35%;
   display: flex;
-  justify-content: center;
-  padding: 1%;
+  justify-content: space-around
 }
